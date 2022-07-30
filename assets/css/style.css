@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .section{
+    min-height: 100vh;
+  }
+
+.logo-vk {
+    position: fixed;
+    right: 65%;
+    top: 0;
+    width: 150px;
+}
+
+.main-bg {
+    background-image: url('../img/handsome-man-at-barbershop-shaving-beard.jpg');
+    background-size:cover;
+}
+
+.menu {
+    position:fixed ;
+    top: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 1rem;
+    font-size: 1.8rem;
+    /* font-family: 'Montserrat',sans-serif; */
+    color:#FFF;
+    background-color: rgba(19, 15, 17, 0.8);
+}
